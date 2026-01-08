@@ -1,53 +1,92 @@
-# Projeto HTML + SCSS + Bootstrap
+# Portfolio - Gabriel Henrique
 
-## 📋 Estrutura do Projeto
+Portfólio profissional de desenvolvedor front-end, desenvolvido com HTML5, SCSS e Bootstrap 5.
+
+## 🚀 Demo
+
+[Ver site ao vivo](https://doidera1.github.io/portfolio/) *(após configurar GitHub Pages)*
+
+## 📋 Sobre o Projeto
+
+Portfolio responsivo e moderno apresentando:
+- 💼 Experiência profissional
+- 🎯 Habilidades técnicas
+- 🚀 Projetos desenvolvidos
+- 📧 Formulário de contato
+
+## 🛠️ Tecnologias
+
+- HTML5
+- SCSS/Sass
+- Bootstrap 5.3.2
+- Bootstrap Icons
+- CSS Grid & Flexbox
+
+## 📂 Estrutura do Projeto
 
 ```
-port/
-├── index.html          # Página principal
+portfolio/
+├── index.html              # Página principal
 ├── css/
-│   └── style.css      # CSS compilado (gerado automaticamente)
+│   └── style.css          # CSS compilado
 ├── scss/
-│   ├── style.scss     # Arquivo SCSS principal
-│   ├── _variables.scss # Variáveis SCSS
-│   └── _mixins.scss   # Mixins SCSS
-├── .vscode/
-│   └── settings.json  # Configurações do VS Code
-└── README.md
+│   ├── style.scss         # SCSS principal
+│   ├── _variables.scss    # Variáveis
+│   └── _mixins.scss       # Mixins
+├── img/                    # Imagens do projeto
+├── pdf/                    # Currículo PDF
+└── watch-sass.bat         # Script para compilar SCSS
 ```
 
-## 🚀 Como Começar
+## 🚀 Como Usar
 
-### Compilar SCSS
+### 1. Clone o repositório
+```bash
+git clone https://github.com/Doidera1/portfolio.git
+cd portfolio
+```
 
-#### Opção 1: Extensão Live Sass Compiler (Recomendado)
+### 2. Compilar SCSS (opcional)
 
-1. Instale a extensão "Live Sass Compiler" no VS Code
-2. Abra o arquivo `scss/style.scss`
-3. Clique em "Watch Sass" na barra de status inferior
-4. O CSS será compilado automaticamente em `css/style.css`
+Para editar os estilos, compile o SCSS:
 
-#### Opção 2: Compilador Standalone
-
-Baixe o Dart Sass standalone:
-- https://github.com/sass/dart-sass/releases
-
-Execute:
 ```bash
 sass --watch scss:css
 ```
 
-## 🎨 Recursos Incluídos
+Ou execute o arquivo `watch-sass.bat` no Windows.
 
-- ✅ Bootstrap 5.3.2 via CDN
-- ✅ Estrutura SCSS modular (variáveis, mixins)
-- ✅ Layout responsivo
-- ✅ Navbar, footer e estrutura básica
-- ✅ CSS já compilado para começar imediatamente
+### 3. Abrir o projeto
 
-## 📝 Uso
+Abra o arquivo `index.html` no navegador ou use uma extensão como Live Server no VS Code.
 
-Abra `index.html` no navegador ou use uma extensão como "Live Server" no VS Code.
+## 🎨 Personalização
+
+1. **Cores**: Edite as variáveis em `scss/style.scss`
+2. **Conteúdo**: Modifique o texto em `index.html`
+3. **Imagens**: Substitua as imagens na pasta `img/`
+4. **Links**: Atualize os links do LinkedIn, GitHub e WhatsApp
+
+## 📱 Responsividade
+
+O site é totalmente responsivo com breakpoints para:
+- 📱 Mobile (≤576px)
+- 📱 Tablet (≤991px)
+- 💻 Desktop (≥992px)
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.
+
+## 👤 Autor
+
+**Gabriel Henrique**
+- LinkedIn: [Gabriel Santos](https://www.linkedin.com/in/gabriel-santos-a43744214/)
+- GitHub: [@Doidera1](https://github.com/Doidera1)
+
+---
+
+⭐ Se você gostou deste projeto, dê uma estrela!
 
 ## 🎯 Próximos Passos
 
